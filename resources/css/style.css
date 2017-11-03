@@ -1,0 +1,38 @@
+html {
+  background-image: url("https://wallpaperscraft.com/image/dragon_fire_breathing_flame_art_102569_1920x1080.jpg");
+
+}
+
+
+.MainTitle {
+  text-align: center;
+  background-color: black;
+  opacity: .75;
+}
+
+.welcome h1 {
+  font-size: 70px;
+  opacity: .80;
+  color: #c6560b;
+
+}
+.welcome p {
+  font-size: 35px;
+  color: white;
+  background-color: black;
+  opacity: .75;
+  padding: 15px;
+}
+
+.updates p {
+  color: white;
+  background-color: black;
+  opacity: .75;
+  font-size: 35px
+}
+
+.updates h1 {
+  font-size: 70px;
+  opacity: .80;
+  color: #c6560b;
+}
