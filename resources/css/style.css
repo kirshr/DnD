@@ -1,19 +1,17 @@
 html {
-  background-image: url("https://wallpaperscraft.com/image/dragon_fire_breathing_flame_art_102569_1920x1080.jpg");
+  background-image: url("http://mapinstitute.org/data/wallpapers/95/im58964022.jpg");
 
 }
 
-
 .MainTitle {
   text-align: center;
-  background-color: black;
-  opacity: .75;
 }
 
 .welcome h1 {
   font-size: 70px;
   opacity: .80;
   color: #c6560b;
+  text-align: center;
 
 }
 .welcome p {
@@ -35,4 +33,25 @@ html {
   font-size: 70px;
   opacity: .80;
   color: #c6560b;
+}
+
+.links {
+  font-size: 32px;
+
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  color: white;
+  opacity: .75;
+  width: 200px;
+  margin:0px;
+}
+
+a {
+  color: black;
 }
