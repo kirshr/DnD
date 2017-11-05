@@ -1,10 +1,14 @@
 html {
-  background-image: url("http://mapinstitute.org/data/wallpapers/95/im58964022.jpg");
+  background-color: black;
+  width: auto;
+  height: auto;
 
 }
 
 .MainTitle {
   text-align: center;
+  padding:0px;
+  margin: 0px;
 }
 
 .welcome h1 {
@@ -12,14 +16,46 @@ html {
   opacity: .80;
   color: #c6560b;
   text-align: center;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: helvetica;
 
 }
-.welcome p {
-  font-size: 35px;
-  color: white;
-  background-color: black;
+
+@font-face {
+  font-family: allura;
+  src: url(Allura-Regular.ttf);
+}
+.container p {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 42px;
+  font-family: allura;
+  position: absolute;
+  width: 1350px;
+  height: 450px;
+  left: 200px;
+  right: 240px;
+  bottom: 8px;
+  overflow: auto;
+
+
+
+
+  }
+
+
+
+.parchment {
+  width: 80%;
+  height: 500px;
+  position: relative;
   opacity: .75;
-  padding: 15px;
 }
 
 .updates p {
@@ -36,12 +72,15 @@ html {
 }
 
 .links {
-  font-size: 32px;
+  background-color: blue;
+  left: 200px;
 
 }
 
 ul {
   text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
 
 li {
@@ -50,8 +89,14 @@ li {
   opacity: .75;
   width: 200px;
   margin:0px;
+  padding:0px;
+
 }
 
 a {
-  color: black;
+  color: white;
+  font-size: 32px;
+
+
+
 }
